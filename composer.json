@@ -2,23 +2,18 @@
     "name": "wpmanageninja/wpglue-framework",
     "description": "A lightweight framework to build WordPress plugins.",
     "license": "MIT",
-    "require" : {
-        "php": ">=5.5.9"
-    },
     "authors": [
         {
             "name": "Sheikh Heera",
             "email": "heera.sheikh77@gmail.com"
         }
     ],
+    "require" : {
+        "php": ">=5.5.9"
+    },
     "autoload": {
         "psr-4": {
             "WPManageNinja\\WPGlue\\": "src/WPGlue"
         }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
